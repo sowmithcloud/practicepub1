@@ -6,5 +6,8 @@ if [ $ID != 0 ]
 then
     echo "Error: Please run the script with root user"
 else
-    echo "You are a root user"
+    echo "You are a root user so installing mysql"
+    yum install mysql -y
+
 fi
+
