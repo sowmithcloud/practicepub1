@@ -7,4 +7,4 @@ then
     echo "Error: Please run the script with root user"
 else
     echo "You are a root user"
-if
+fi
