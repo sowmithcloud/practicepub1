@@ -29,5 +29,5 @@ fi
 yum install mysql -y &>> $LOGFILE
 validate $? "Intalling mysql"
 
-yum install net-tools -y &>> $LOGFILE
-validate $? "Intalling net-tools"
+yum install tree -y &>> $LOGFILE
+validate $? "Intalling tree"
