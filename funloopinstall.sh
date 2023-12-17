@@ -40,5 +40,5 @@ do
         validate $? "installation of $package"
     else
         echo "$package is already installed so skipping installation"
-    if
+    fi
 done
