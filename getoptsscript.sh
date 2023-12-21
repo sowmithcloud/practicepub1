@@ -25,7 +25,8 @@ done
 
 if [ -z $NAME ] || [ -z $WISHES ]
 then
-echo "Options -n and -w are mandatory"
+    echo "Options -n and -w are mandatory"
+
 fi
 
 echo "$NAME , $WISHES"
