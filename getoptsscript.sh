@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NAME=""
-WISHES=""
+WISHES="Good Morning"
 
 USAGE() {
 
