@@ -23,4 +23,9 @@ do
 
 done
 
-echo "$WISHES , $NAME"
+if [ -z $NAME ] || [ -z $WISHES ]
+then
+echo "Options -n and -w are mandatory"
+fi
+
+echo "$NAME , $WISHES"
