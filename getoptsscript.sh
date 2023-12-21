@@ -18,10 +18,9 @@ do
     case $options in
         n) NAME="$OPTARG";;
         w) WISHES="$OPTARG";;
-       \?) echo "Invalid option: -"$OPTARG"" >&2
-           USAGE; exit 1 ;;
-        :) USAGE; exit 1 ;;
-        h) USAGE; exit 1 ;;
+       \?) echo "Invalid option: -"$OPTARG"" >&2; USAGE; exit;;
+        :) USAGE; exit;;
+        h) USAGE; exit;;
     esac
 
 done
