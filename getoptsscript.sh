@@ -20,7 +20,7 @@ do
         w) WISHES="$OPTARG";;
        \?) echo "Invalid option: -"$OPTARG"" >&2; USAGE; exit 1 ;;
         :) USAGE; exit 1 ;;
-        h|*) USAGE;
+        h|*) USAGE; exit 1 ;;
     esac
 
 done
