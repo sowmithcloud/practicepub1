@@ -23,7 +23,7 @@ do
 
 done
 
-if [ -z $NAME ] || [ -z $WISHES ]
+if [ -z "$NAME" ] || [ -z "$WISHES" ]
 then
     echo "Options -n and -w are mandatory"
     exit 1
