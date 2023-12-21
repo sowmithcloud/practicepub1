@@ -13,12 +13,12 @@ USAGE() {
 }
 
 
-while getopts "n:w:h:" options
+while getopts "n:w:h" options
 do
     case $options in
         n) NAME="$OPTARG";;
         w) WISHES="$OPTARG";;
-        \?) echo "Invalid option: -"$OPTARG"" >&2; USAGE; exit;;
+        \?) echo "Invalid option: -"$OPTARG"" >&2; USAGE; exit 1;;
         :) USAGE; exit;;
         h) USAGE; exit;;
     esac
