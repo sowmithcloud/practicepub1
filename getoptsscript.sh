@@ -13,7 +13,7 @@ USAGE() {
 }
 
 
-while getopts "n:w:h" options
+while getopts "n:w:h:" options
 do
     case $options in
         n) NAME="$OPTARG";;
