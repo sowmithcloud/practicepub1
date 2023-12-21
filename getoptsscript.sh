@@ -23,4 +23,4 @@ do
 
 done
 
-ehco "$WISHES , $NAME"
+echo "$WISHES , $NAME"
