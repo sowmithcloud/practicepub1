@@ -61,7 +61,7 @@ then
     while IFS= read -r line
     do
         echo "Deleting the file: $line"
-        rm -rf $line
+        rm -f "$line"
     
     done <<< $FILES_TO_DELETE
 
