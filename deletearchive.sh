@@ -54,9 +54,10 @@ then
 
 fi
 
+FILES_TO_DELETE=$(find $SOURCE_DIR -type f -mtime $DAYS -name "*.log")
+
 if [ "$ACTION" == "delete" ]
 then
-    FILES_TO_DELETE=$(find $SOURCE_DIR -type f -mtime $DAYS -name "*.log")
 
     while IFS= read -r line
     do
