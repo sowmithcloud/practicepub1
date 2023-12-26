@@ -1,5 +1,5 @@
 - name: ping playbook
   host: ansiblehost
   task:
-  - name: ping the host
+  - name: ping the ansiblehost
   ansible.builtin.ping:
