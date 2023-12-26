@@ -2,4 +2,4 @@
   host: ansiblehost
   task:
   - name: ping the ansiblehost
-  ansible.builtin.ping:
+    ansible.builtin.ping:
